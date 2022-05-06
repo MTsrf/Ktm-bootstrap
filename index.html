@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Homepage design with Bootstrap 4 and Animate css</title>
+	<!--  <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"> -->
+     <!-- Bootstrap CSS -->
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<link href="assets/Style/Style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+		<div class="container">
+			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">MODELS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">BOOK</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">RACING</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">KTM WORLD</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">SERVICES</a>
+					</li>
+				</ul>
+			</div>
+            
+		</div>
+        <div class="logo">
+            <a href="#"><img src="assets/img/37860_KTM_LogoPodium_orange_RGB.jpg" alt=""></a>
+        </div>
+	</nav>
+	<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="First slide" class="d-block w-100" src="assets/img/_RUS1654 miwi A_sRGB.jpeg">
+				<div class="carousel-caption ">
+					<h5>Get Serious!</h5>
+
+          <p class="text-uppercase">Look Familiar?</p>
+					
+					<button>LEARN MORE</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="Second slide" class="d-block w-100" src="assets/img/waw22-header.jpeg">
+				<div class="carousel-caption">
+					<button>Find out</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="Third slide" class="d-block w-100" src="assets/img/Cairoli KTM MX 2022.jpeg">
+				<div class="carousel-caption ">
+          <p class="text-uppercase">2022 KTM 390 ADVENTURE</p>
+					<h5>ADVENTURE MORE</h5>
+					<button>GET MORE INFORMATIONS</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+    <section class="mt-5">
+        <div class="card-container">
+          <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card border-0">
+                  <img src="assets/img/card/390adv2020_Medium.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-uppercase fs-6">#getducked</h5>
+                    <h4 class="card-text text-center text-uppercase">KTM NAKED</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0">
+                  <img src="assets/img/card/Cairoli KTM MX 2022.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-uppercase fs-6">#goadventure</h5>
+                    <h4 class="card-text text-center text-uppercase">KTM Travel</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0">
+                  <img src="assets/img/card/rc22-supermoto-abs-us_Medium.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-center text-uppercase fs-6">race-bred performance</h5>
+                    <h4 class="card-text text-center text-uppercase">KTM supersport</h4>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- card2 -->
+
+    <section class="mt-5">
+        <div class="card-container">
+          <div class="row">
+            <div class="col-md-4 pb-md-0 pb-5">
+              <div class="card border-0 ">
+                <img src="assets/img/Card2/2021 World Champion.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="fw-bold">Apr 28, 2022</p>
+                  <h4 class="card-title text-uppercase">SECURE ONE OF THE FINAL PLACES ON THE START GATE FOR THE 2022 EUROPEAN....</h4>
+                  <p class="card-text">With just over four weeks to go until the 2022 European Junior e-Motocross Series kicks off in Spain, all 40 spaces on the start line are almost taken with registrations on course to reach full capacity well before the closing date. Interested</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-md-0 pb-5">
+              <div class="card border-0">
+                <img src="assets/img/Card2/415286_MXGP_France_202111.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="fw-bold">Mar 24, 2022</p>
+                  <h4 class="card-title">KTM EXCITED FOR EUROPEAN JUNIOR E-MOTOCROSS SERIES AS 2022 REGISTRATIONS OPEN</h4>
+                  <p class="card-text">Continuing the highly successful partnership with Infront Moto Racing, KTM is pleased to announce that registrations are officially open for the 2022 running of the ground-breaking European Junior e-Motocross Series. Incredibly</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pb-md-0 pb-5">
+              <div class="card border-0">
+                <img src="assets/img/Card2/KTM_MXGP_Germany_11_2021_JPA__ZA_182011.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="fw-bold">Dec 29, 2021</p>
+                  <h5 class="card-title text-uppercase">KTM FACTORY RACING CLOSE A TROPHY-LADEN 2021</h5>
+                  <p class="card-text">2021 has been a memorable campaign for Red Bull KTM Factory Racing across the disciplines. Spirited presence in at least six different spheres of motorcycle competition has delivered notable success as well as the full range of..</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- grid -->
+      <section class="mt-5">
+        <div class="card-container pic">
+          <div class="row g-0">
+            <div class="left col-md-6 my-auto p-0">
+              <div class="grd_fst">
+                  <img src="assets/img/card3/7e81c783-6603-4ebe-83e2-0609ea95c27b.jpeg" alt="">
+              </div>
+              <div class="grd_fst">
+                  <img src="assets/img/card3/92deb5b3-887f-4b16-85b9-9b42137fcfbd.jpeg" alt="">
+              </div>
+              <div class="grd_fst">
+                  <img src="assets/img/card3/dc75ffe8-01ed-4e57-9c40-b96ff86670fb.jpeg" alt="">
+              </div>
+              <div class="grd_fst">
+                  <img src="assets/img/card3/ec2cd657-2dc1-4cec-95ec-1d3ffcee1cb4 (1).jpeg" alt="">
+              </div>
+  
+            </div>
+            <div class="right col-md-6 my-auto">
+               <!-- <div class="row"> -->
+                <div class="set_md ">
+                  <h3 class="text-center">FIND US ON INSTAGRAM</h3>
+                  <p class="text-center">Get your daily dose of #ReadyToRace</p>
+                </div>
+               </div>
+            <!-- </div>   -->
+          </div>
+        </div>
+      </section>
+
+
+      <div class="button_qoutes mt-5">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-6 p-3">
+              <p class="mt-3 fw-bold text-uppercase text-end">Join The KTM newsletter</p>
+            </div>
+            <div class="col-md-6 p-3">
+              <button class="fw-bold">SIGN UP <i class="fa-solid fa-arrow-right-long ms-1"></i></button>
+            </div>
+          </div>
+          <!-- <div class="d-flex text-uppercase justify-content-center p-5 align-items-center">
+            <p class="mt-3 me-3 fw-bold">Join The KTM newsletter</p>
+            <button class="fw-bold">SIGN UP</button>
+          </div> -->
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="qoutes">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <p>The illustrated vehicles may vary in selected details from the production models and some illustrations feature optional equipment available at additional cost. All information concerning the scope of supply, appearance, services, dimensions and weights is non-binding and specified with the proviso that errors, for instance in printing, setting and/or typing, may occur; such information is subject to change without notice. Please note that model specifications may vary from country to country. In the case of coated surfaces, there may be color differences due to the usual process fluctuations. The consumption values stated refer to the roadworthy series condition of the vehicles at the time of factory delivery.</p>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+<!-- footer -->
+
+
+  <footer class="footer bg-dark border-0 mt-5">
+    
+    <div class="accordion accordion-flush d-lg-none d-block bg-dark" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            THE COMPANY
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="">KTM AG</a></li>
+              <li><a href="">Brand Values</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Become A Dealer</a></li>
+              <li><a href=""></a>Ivestor Relations</li>
+              <li><a href=""></a>Procument</li>
+              <li><a href="">Press Center</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            KTM WORLD
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="">News</a></li>
+              <li><a href="">Rasing</a></li>
+              <li><a href="">Stories</a></li>
+              <li><a href="">KTM Motohall</a></li>
+              <li><a href="">Ride KTM</a></li>
+              <li><a href="">KTM Adventure</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            LEAGAL
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <ul>
+              <li><a href="">Privacy </a></li>
+              <li><a href="">Policy</a></li>
+              <li><a href="">Legal</a></li>
+              <li><a href="">News</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="connect p-3 ">
+          <div>
+        <p >CONNECT</p>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i> </a>
+      </div>
+      </div>
+
+      </div>
+     
+    </div>
+    <div class="card-container d-lg-block d-none text-white ">
+      <div class="card-group">
+        <div class="card bg-dark">
+   
+          <div class="card-body border-0">
+            <h5 class="card-title ">THE COMPANY</h5>
+           <a href=""><p class="card-text">KTM AG</p></a> 
+           <a href=""><p class="card-text">Brand Values</p></a> 
+           <a href=""><p class="card-text">Contact</p></a> 
+           <a href=""><p class="card-text">Become A Dealer</p></a> 
+           <a href=""><p class="card-text">Ivestor Relations</p></a> 
+           <a href=""><p class="card-text">Procurement</p></a> 
+           <a href=""><p class="card-text">Press Center</p></a> 
+           <a href=""><p class="card-text">Meadia Library</p></a> 
+           <a href=""><p class="card-text">KTM Motohall</p></a> 
+
+          </div>
+        </div>
+        <div class="card border-0">
+        
+          <div class="card-body bg-dark border-0">
+            <h5 class="card-title ">KTM WORLD</h5>
+            <a href=""><p class="card-text">News</p></a> 
+            <a href=""><p class="card-text">Rasing</p></a> 
+            <a href=""><p class="card-text">Stories</p></a> 
+            <a href=""><p class="card-text">KTM Motohall</p></a> 
+            <a href=""><p class="card-text">Ride KTM</p></a> 
+            <a href=""><p class="card-text">KTM Adventure</p></a> 
+            <a href=""><p class="card-text">Online Configurator</p></a> 
+            <a href=""><p class="card-text">Book a Testride</p></a> 
+      
+
+      
+          </div>
+        </div>
+        <div class="card border-0">
+        
+          <div class="card-body bg-dark">
+            <h5 class="card-title ">SEVICE</h5>
+            <a href=""><p class="card-text">Warranty</p></a> 
+            <a href=""><p class="card-text">Safty</p></a> 
+            <a href=""><p class="card-text">Manuals</p></a> 
+            <a href=""><p class="card-text">Maintaines</p></a> 
+            <a href=""><p class="card-text">Service & Safety Check</p></a> 
+            <a href=""><p class="card-text">Freeride E Hotline</p></a> 
+            <a href=""><p class="card-text">Spare Parts Finder</p></a> 
+
+          </div>
+        </div>
+        <div class="card border-0">
+       
+          <div class="card-body bg-dark">
+            <h5 class="card-title ">LEGAL</h5>
+           <a href=""><p class="card-text">Imprint</p></a> 
+           <a href=""><p class="card-text">Privacy Policy</p></a> 
+           <a href=""><p class="card-text">Legal Notices</p></a> 
+
+          </div>
+        </div>
+        <div class="card border-0">
+        
+          <div class="card-body bg-dark">
+            <h5 class="card-title ">CONNECT</h5>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i> </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-container">
+          <hr>
+        <div class="col-md-6 p-3">
+            <p>Copyright 2022 KTM Sportmotorcycle GmbH, all rights reserved</p>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+      </div>
+</footer>
+
+
+
+<script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
